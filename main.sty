@@ -1,0 +1,16 @@
+\ProvidesPackage{main}
+
+\newcommand{\customPrayerIndent}{\hspace*{2cm}}
+
+\newenvironment{forklaring}
+  { 
+    \begin{center} 
+    \itshape 
+    \addtolength{\leftskip}{2em} 
+    \addtolength{\rightskip}{2em} 
+  }
+  {
+    \end{center}
+  }
+
+  \newcommand{\repetisjonHint}[1]{\mbox{\textbf{#1}}}

@@ -1,0 +1,19 @@
+\documentclass[8pt]{extarticle}
+\usepackage{main}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage[papersize={3in,4in}, margin=0.5cm]{geometry}
+\usepackage{microtype}
+\usepackage[norsk]{babel}
+
+\titleformat{\section}{\normalfont\huge\bfseries\centering}{}{0pt}{\MakeUppercase}
+\titleformat{\subsection}[block]{\normalfont\LARGE\bfseries\centering}{}{0pt}{}
+\titleformat{\subsubsection}[block]{\normalfont\large\bfseries}{}{0pt}{}
+
+\pagestyle{empty}
+\tolerance=1000
+\emergencystretch=3em
+
+\begin{document}
+\include{innhold}
+\end{document}
